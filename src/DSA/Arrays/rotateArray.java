@@ -1,4 +1,4 @@
-package Arrays;
+package DSA.Arrays;
 
 import java.util.*;
 public class rotateArray {
@@ -20,7 +20,7 @@ public class rotateArray {
         }
         for(int i=0;i<k;i++){
             int temp=arr[i];
-            arr1[i+k]=temp;
+            arr1[n-k+i]=temp;
         }
         for(int i=0;i<n;i++){
             System.out.print(arr1[i]);

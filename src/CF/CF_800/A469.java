@@ -1,3 +1,5 @@
+package CF.CF_800;
+
 import java.util.*;
 public class A469 {
     public static void main(String args[]){
@@ -29,7 +31,7 @@ int q=sc.nextInt();
         for(int i=0;i<q;i++){
             arr2[i]=sc.nextInt();
         }
-        //Arrays.sort(arr2);
+        //DSA.Arrays.sort(arr2);
         for(int i=0;i<q;i++){
            if(sum!=sux){
                sux=sux+arr2[i];

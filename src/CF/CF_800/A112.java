@@ -1,3 +1,5 @@
+package CF.CF_800;
+
 import java.util.Scanner;
 
 public class A112 {

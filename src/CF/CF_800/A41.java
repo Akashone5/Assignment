@@ -1,3 +1,5 @@
+package CF.CF_800;
+
 import java.util.*;
 public class A41 {
     public static void main(String args[]){

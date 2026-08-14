@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Collection;
 import java.util.*;
 public class Linkedlist {
     public static void main(String arhs[]){
