@@ -1,9 +1,9 @@
-package Assignment2;
+package Assignment_collection.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Arraylist_1 {
+public class ArrayList_2 {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();

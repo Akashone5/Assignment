@@ -1,9 +1,9 @@
-package Assignment2;
+package Assignment_collection.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ArrayList_4 {
+public class Arraylist_1 {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -11,13 +11,6 @@ public class ArrayList_4 {
         for(int i=0;i<n;i++){
             all.add(sc.nextInt());
         }
-        int k=sc.nextInt();
-        for(int i=0;i<n;i++){
-            if(all.contains(k)){
-                System.out.print(i);
-            }
-            else System.out.print("Mark not found");
-        }
-
+        System.out.print(all);
     }
 }

@@ -1,10 +1,9 @@
-package Assignment2;
+package Assignment_collection.ArrayList;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
-public class Arraylist_9 {
+public class ArrayList_8 {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -12,9 +11,8 @@ public class Arraylist_9 {
         ArrayList<Integer> all=new ArrayList<>();
         for(int i=0;i<n;i++){
             all.add(sc.nextInt());
-        }Collections.sort(all);
-       System.out.print( Collections.min(all));
-        System.out.print( Collections.max(all));
-
+        }
+        all.remove(5);
+        System.out.print(all.size());
     }
 }
